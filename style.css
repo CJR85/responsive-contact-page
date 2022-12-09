@@ -96,6 +96,27 @@
   line-height: 1em;
 }
 
+.social {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  color: #fff;
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+.social li a:hover {
+  color: #00bcd4;
+}
+
 .container .contactForm {
   position: relative;
   width: 40%;
