@@ -47,6 +47,7 @@
 .container .contactInfo {
   width: 50%;
   display: flex;
+  flex-direction: column;
   background: #fff1;
   min-height: 500px;
 }
