@@ -179,3 +179,20 @@
   font-size: 1.1em;
   font-weight: 500;
 }
+
+// Responsiveness
+@media (min-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo,
+  .container .contactForm {
+    width: 100%;
+  }
+  .container .contactForm {
+    padding: 50px 30px;
+  }
+}
